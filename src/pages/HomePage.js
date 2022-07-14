@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { BiRightArrowCircle } from 'react-icons/bi';
 import FetchData from '../redux/fetchapidata';
 import { GetData } from '../redux/appreducer';
+import './HomePage.css';
 
 function HomePage() {
   const CountryData = useSelector((fetch) => fetch.moredetails);
@@ -44,7 +45,7 @@ function HomePage() {
           onChange={countryOnChange}
         />
       </form>
-      <ul>
+      <ul className="countrycontainer">
         {
         CountryHighCases.map((countries) => (
           <li key={countries.country_name}>
