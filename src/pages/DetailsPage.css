@@ -1,0 +1,20 @@
+.section {
+  background-color: #293c36;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.detailscontainer {
+  display: flex;
+  justify-content: center;
+  text-align: initial;
+}
+
+@media only screen and (min-width: 768px) {
+  .detailscontainer {
+    justify-content: space-evenly;
+  }
+}

@@ -5,6 +5,7 @@ import { BiRightArrowCircle } from 'react-icons/bi';
 import FetchData from '../redux/fetchapidata';
 import { GetData } from '../redux/appreducer';
 import './HomePage.css';
+import worldmap from '../image/worldcovidmap.png';
 
 function HomePage() {
   const CountryData = useSelector((fetch) => fetch.moredetails);
@@ -36,7 +37,10 @@ function HomePage() {
 
   return (
     <section>
-      <h1>Countries with high cases</h1>
+      <div className="imgcontainer">
+        <img src={worldmap} alt="world map" className="worldmap" />
+      </div>
+      <h1 className="countcases">Countries with high cases</h1>
       <form>
         <input
           type="text"
@@ -48,11 +52,14 @@ function HomePage() {
       <ul className="countrycontainer">
         {
         CountryHighCases.map((countries) => (
-          <li key={countries.country_name}>
-            <Link key={countries.country_name} to={{ pathname: `/country/${countries.country_name}` }}>
-              <BiRightArrowCircle />
-            </Link>
-            <div>
+          <li key={countries.country_name} className="countrycard">
+            <div className="flagcont">
+              <img src={countries.country_flag} alt="country flag" className="countryflag" />
+              <Link key={countries.country_name} to={{ pathname: `/country/${countries.country_name}` }}>
+                <BiRightArrowCircle className="linkicon" />
+              </Link>
+            </div>
+            <div className="countryinfo">
               <h3>
                 Country:
                 <br />
@@ -68,9 +75,6 @@ function HomePage() {
                 <br />
                 {countries.population.toLocaleString()}
               </h3>
-            </div>
-            <div>
-              <img src={countries.country_flag} alt="country flag" />
             </div>
           </li>
         ))
