@@ -1,0 +1,39 @@
+header {
+  left: 0;
+  height: 60px;
+  position: fixed;
+  background-color: rgb(1 32 32);
+  right: 0;
+  top: 0;
+}
+
+footer {
+  left: 0;
+  height: 45px;
+  position: fixed;
+  background-color: rgb(2, 70, 70);
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.divtitle {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 60;
+}
+
+.backhome {
+  font-size: 42px;
+  color: aliceblue;
+}
+
+.micicon,
+.settingicon {
+  font-size: 22px;
+}
+
+.title {
+  font-size: 20px;
+}
