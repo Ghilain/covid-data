@@ -17,7 +17,7 @@ Web app showing COVID data for the country have more cases around world and use 
 
 ## Video
 
-[See Video here](https://www.loom.com/share/210d65bce1b949a286b7936ed6c77071)
+[Watch Video here](https://www.loom.com/share/210d65bce1b949a286b7936ed6c77071)
 
 ## Built With
 
