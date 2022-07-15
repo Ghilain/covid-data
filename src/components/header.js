@@ -3,26 +3,23 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
 import { BsMic } from 'react-icons/bs';
 import { AiOutlineSetting } from 'react-icons/ai';
-import worldmap from '../image/worldcovidmap.png';
+import './component.css';
 
 function Header() {
   const currentlocation = useLocation();
-  const backHome = currentlocation.pathname.includes('country') ? <MdKeyboardArrowLeft /> : '';
+  const backHome = currentlocation.pathname.includes('country') ? <MdKeyboardArrowLeft className="backhome" /> : '';
 
   return (
     <header>
-      <div>
+      <div className="divtitle">
         <NavLink exact="true" to={{ pathname: '/' }}>
           {backHome}
         </NavLink>
-        <h1>Countries has highest covid cases</h1>
+        <h1 className="title">Countries has highest covid cases</h1>
         <div>
-          <BsMic />
-          <AiOutlineSetting />
+          <BsMic className="micicon" />
+          <AiOutlineSetting className="settingicon" />
         </div>
-      </div>
-      <div>
-        <img src={worldmap} alt="world map" />
       </div>
     </header>
   );
