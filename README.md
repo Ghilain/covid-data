@@ -50,7 +50,7 @@ npm start
 
 ## Author
 
-👤 **Odaltoneric**
+👤 **Ghilain Ishimwe**
 
 - GitHub: [@Ghilain](https://github.com/Ghilain)
 - Twitter: [@GhilainIshimwe](https://twitter.com/GhilainIshimwe)
