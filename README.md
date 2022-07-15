@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid data
 
-## Available Scripts
+Web app showing COVID data for the country have more cases around world and use disease.sh api data
 
-In the project directory, you can run:
+> In this app, you can get countries covid data and their details. 
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search of a specific country.
+- Get details of on available country.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo App
 
-### `npm test`
+[See live demo](https://frabjous-crisp-b21f74.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Video
 
-### `npm run build`
+[See Video here](https://www.loom.com/share/210d65bce1b949a286b7936ed6c77071)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Redux
+- CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Clone the project
 
-### `npm run eject`
+You can download or clone this project by running this command from your terminal:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/Ghilain/covid-data.git
+This will create a directory in the name of the project folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you have the project files and folders, open it with your text editor.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Next, switch inside the project directory and run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+This will install all the necessary dependencies in the local `node_modules` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Finally, start your development server by running:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Odaltoneric**
 
-### Analyzing the Bundle Size
+- GitHub: [@Ghilain](https://github.com/Ghilain)
+- Twitter: [@GhilainIshimwe](https://twitter.com/GhilainIshimwe)
+- LinkedIn: [Ghilain Ishimwe](https://www.linkedin.com/in/ghilain-ishimwe/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
+- The original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Project from [Microverse](https://bit.ly/MicroverseTN) React-Redux module
+- API daata from [disease.sh](https://disease.sh/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
