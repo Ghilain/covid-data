@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Pages test Homepage 1`] = `
+<section>
+  <div
+    className="imgcontainer"
+  >
+    <img
+      alt="world map"
+      className="worldmap"
+      src="worldcovidmap.png"
+    />
+  </div>
+  <h1
+    className="countcases"
+  >
+    Countries with high cases
+  </h1>
+  <form>
+    <input
+      onChange={[Function]}
+      placeholder="Search for country..."
+      type="text"
+      value=""
+    />
+  </form>
+  <ul
+    className="countrycontainer"
+  />
+</section>
+`;
